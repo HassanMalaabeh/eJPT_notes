@@ -96,7 +96,7 @@ This outline lists each unique topic once and notes every module where it appear
 | Types of Security Audits | Lessons › Introduction to Security Auditing › Security Auditing Process | — |
 
 [⬆️ Back to top](#protocols-and-services-covered-in-ejpt-notes-consolidated)
-
+ 
 ## Host & Network Penetration Testing
 
 ### Network-Based Attacks
@@ -276,3 +276,5 @@ This outline lists each unique topic once and notes every module where it appear
 
 [⬆️ Back to top](#protocols-and-services-covered-in-ejpt-notes-consolidated)
 
+
+> For the module-by-module notes that informed this consolidation, see [PROTOCOLS_AND_SERVICES.md](./PROTOCOLS_AND_SERVICES.md).
