@@ -1,248 +1,225 @@
 # Protocols and Services Covered in eJPT Notes (Consolidated)
 
-This reorganized outline deduplicates the topics from `PROTOCOLS_AND_SERVICES.md` while preserving their original context.
+This outline lists each unique topic once and notes every module where it appears. Sections are grouped by their primary training module, with cross-references to any additional contexts that also cover the topic.
 
 ## Assessment Methodologies
 
 ### Footprinting & Scanning
-- Active Information Gathering
-- Networking Primer
-  - Networking Fundamentals
-  - Network Layer
-  - Transport Layer (Part 1 & Part 2)
-- Host Discovery Workflow
-  - Network Mapping
-  - Host Discovery Techniques
-  - Ping Sweeps
-  - Host Discovery with Nmap (Parts 1 & 2)
-- Port Scanning Strategies
-  - Port Scanning with Nmap (Parts 1 & 2)
-  - Service Version & OS Detection
-  - Nmap Scripting Engine (NSE) Overview
-- Scan Evasion & Optimization
-  - Firewall Detection & IDS Evasion
-  - Optimizing Nmap Scans
-  - Nmap Output Formats
+
+- **Active Information Gathering** — Lessons › Introduction.
+- **Firewall Detection & IDS Evasion** — Lessons › Evasion, Scan Performance & Output. _Also in: Host & Network Penetration Testing › Network-Based Attacks › Lessons › Networking_.
+- **Host Discovery Techniques** — Lessons › Host Discovery.
+- **Host Discovery With Nmap - Part 1** — Lessons › Host Discovery.
+- **Host Discovery With Nmap - Part 2** — Lessons › Host Discovery.
+- **Network Layer** — Lessons › Networking Primer.
+- **Network Mapping** — Lessons › Host Discovery.
+- **Networking Fundamentals** — Lessons › Networking Primer. _Also in: Host & Network Penetration Testing › Network-Based Attacks › Lessons › Networking_.
+- **Nmap Output Formats** — Lessons › Evasion, Scan Performance & Output.
+- **Nmap Scripting Engine (NSE)** — Lessons › Port Scanning.
+- **Optimizing Nmap Scans** — Lessons › Evasion, Scan Performance & Output.
+- **Ping Sweeps** — Lessons › Host Discovery.
+- **Port Scanning With Nmap - Part 1** — Lessons › Port Scanning.
+- **Port Scanning With Nmap - Part 2** — Lessons › Port Scanning.
+- **Service Version & OS Detection** — Lessons › Port Scanning.
+- **Transport Layer - Part 1** — Lessons › Networking Primer.
+- **Transport Layer - Part 2** — Lessons › Networking Primer.
 
 ### Enumeration
-- Introduction to Enumeration
-- Advanced Nmap Usage
-  - Port Scanning & Enumeration with Nmap
-  - Importing Nmap Scan Results into Metasploit
-  - Port Scanning with Metasploit Auxiliary Modules
-- Service Enumeration Playbooks
-  - FTP Enumeration
-  - SMB Enumeration
-  - Web Server Enumeration
-  - MySQL Enumeration
-  - SSH Enumeration
-  - SMTP Enumeration
+
+- **FTP Enumeration** — Lessons › Service Enumeration. _Also in: Host & Network Penetration Testing › Metasploit Framework (MSF) › Information Gathering & Enumeration › Enumeration_.
+- **Importing Nmap Scan Results into MSF** — Lessons › Nmap Scripting Engine (NSE). _Also in: Host & Network Penetration Testing › Metasploit Framework (MSF) › Information Gathering & Enumeration › Nmap_.
+- **Introduction To Enumeration** — Welcome › Introduction.
+- **MySQL Enumeration** — Lessons › Service Enumeration. _Also in: Host & Network Penetration Testing › Metasploit Framework (MSF) › Information Gathering & Enumeration › Enumeration_.
+- **Port Scanning & Enumeration with Nmap** — Lessons › Nmap Scripting Engine (NSE). _Also in: Host & Network Penetration Testing › Metasploit Framework (MSF) › Information Gathering & Enumeration › Nmap_.
+- **Port Scanning with Auxiliary Modules** — Lessons › Nmap Scripting Engine (NSE). _Also in: Host & Network Penetration Testing › Metasploit Framework (MSF) › Information Gathering & Enumeration › Enumeration_.
+- **SMB Enumeration** — Lessons › Service Enumeration. _Also in: Host & Network Penetration Testing › Metasploit Framework (MSF) › Information Gathering & Enumeration › Enumeration_.
+- **SMTP Enumeration** — Lessons › Service Enumeration. _Also in: Host & Network Penetration Testing › Metasploit Framework (MSF) › Information Gathering & Enumeration › Enumeration_.
+- **SSH Enumeration** — Lessons › Service Enumeration. _Also in: Host & Network Penetration Testing › Metasploit Framework (MSF) › Information Gathering & Enumeration › Enumeration_.
+- **Web Server Enumeration** — Lessons › Service Enumeration. _Also in: Host & Network Penetration Testing › Metasploit Framework (MSF) › Information Gathering & Enumeration › Enumeration_.
 
 ### Vulnerability Assessment
-- Windows Exposure Review
-  - Overview of Windows Vulnerabilities
-  - Frequently Exploited Windows Services
-  - WebDAV Vulnerabilities
-- Linux Exposure Review
-  - Frequently Exploited Linux Services
-  - Shellshock (CVE-2014-6271) Analysis
-- Scanner Tooling
-  - Vulnerability Scanning with Metasploit
-  - Vulnerability Scanning with Nessus
-  - Web Application Scanning with WMAP
-- Threat Case Studies
-  - EternalBlue (MS17-010)
-  - BlueKeep (CVE-2019-0708)
+
+- **Frequently Exploited Linux Services** — Lessons › Vulnerability Analysis. _Also in: Host & Network Penetration Testing › Host-Based Attacks › Host Based Attacks › Linux › Linux Vulnerabilities_.
+- **Frequently Exploited Windows Services** — Lessons › Vulnerability Assessment. _Also in: Host & Network Penetration Testing › Host-Based Attacks › Host Based Attacks › Windows › Windows Vulnerabilities_.
+- **Overview of Windows Vulnerabilities** — Lessons › Vulnerability Assessment. _Also in: Host & Network Penetration Testing › Host-Based Attacks › Host Based Attacks › Windows › Windows Vulnerabilities_.
+- **Pass-the-Hash Attacks** — Lessons › Vulnerability Analysis. _Also in: Host & Network Penetration Testing › Host-Based Attacks › Host Based Attacks › Windows › Windows Credential Dumping_.
+- **Vulnerability Analysis Blue Keep** — Lessons › Vulnerability Analysis.
+- **Vulnerability Analysis Eternal Blue** — Lessons › Vulnerability Analysis.
+- **Vulnerability Analysis Shellshock** — Lessons › Vulnerability Analysis.
+- **Vulnerability Scanning with MSF** — Lessons › Vulnerability Assessment. _Also in: Host & Network Penetration Testing › Metasploit Framework (MSF) › Vulnerability Scanning › MSF_.
+- **Vulnerability Scanning with Nessus** — Lessons › Vulnerability Scanning. _Also in: Host & Network Penetration Testing › Metasploit Framework (MSF) › Vulnerability Scanning › Nessus_.
+- **Web App Vulnerability Scanning with WMAP** — Lessons › Vulnerability Scanning. _Also in: Host & Network Penetration Testing › Metasploit Framework (MSF) › Vulnerability Scanning › Web Apps_.
+- **WebDAV Vulnerabilities** — Lessons › Vulnerability Assessment.
 
 ### Auditing Fundamentals
-- Security Auditing Foundations
-  - Overview of Security Auditing
-  - Essential Terminology
-- Security Auditing Process
-  - Lifecycle
-  - Types of Security Audits
-  - Relationship to Penetration Testing
-- Governance, Risk & Compliance (GRC)
-  - Frameworks, Standards & Guidelines
-- Transitioning to Penetration Testing
-  - Developing a Security Policy
-  - Security Auditing with Lynis
-  - Conducting a Penetration Test
+
+- **Common Standards, Frameworks & Guidelines** — Lessons › Governance, Risk & Compliance.
+- **Essential Terminology** — Lessons › Introduction to Security Auditing.
+- **Governance, Risk & Compliance (GRC)** — Lessons › Governance, Risk & Compliance.
+- **Lifecycle** — Lessons › Introduction to Security Auditing › Security Auditing Process.
+- **Overview of Security Auditing** — Lessons › Introduction to Security Auditing.
+- **Phase 1 - Develop a Security Policy** — Lessons › From Auditing to Penetration Testing.
+- **Phase 2 - Security Auditing with Lynis** — Lessons › From Auditing to Penetration Testing.
+- **Phase 3 - Conduct Penetration Test** — Lessons › From Auditing to Penetration Testing.
+- **Security Auditing & Penetration Testing** — Lessons › Introduction to Security Auditing › Security Auditing Process.
+- **Types of Security Audits** — Lessons › Introduction to Security Auditing › Security Auditing Process.
 
 ## Host & Network Penetration Testing
 
 ### Network-Based Attacks
-- Networking Fundamentals Refresher
-- Firewall Detection & IDS Evasion Techniques
-- Network Enumeration
-- SMB & NetBIOS Enumeration
-- SNMP Enumeration
-- SMB Relay Attack Walkthrough
 
-### Host-Based Attacks (System)
-- Host-Based Attack Mindset
-- Windows Attack Surface
-  - Exploiting Microsoft IIS WebDAV
-  - Exploiting WebDAV with Metasploit
-  - Exploiting SMB with PsExec
-  - Exploiting MS17-010 (EternalBlue)
-  - Exploiting RDP
-  - Exploiting BlueKeep (CVE-2019-0708)
-  - Exploiting WinRM
-- Windows Privilege Escalation Techniques
-  - Windows Kernel Exploits
-  - Bypassing UAC with UACMe
-  - Access Token Impersonation
-- Windows File & Credential Access
-  - Alternate Data Streams Abuse
-  - Windows Password Hashes & Storage
-  - Searching Configuration Files for Secrets
-  - Dumping Hashes with Mimikatz
-  - Pass-the-Hash Attacks
-- Linux Attack Surface
-  - Exploiting FTP Services
-  - Exploiting SSH Services
-  - Exploiting SAMBA
-  - Exploiting Bash (Shellshock)
-- Linux Privilege Escalation Techniques
-  - Linux Kernel Exploits
-  - Misconfigured Cron Jobs
-  - SUID Binary Abuse
-- Linux Credential Access
-  - Dumping Linux Password Hashes
+- **Network Enumeration** — Lessons › Network Attacks.
+- **SMB & NetBIOS Enumeration** — Lessons › Network Attacks.
+- **SMB Relay Attack** — Lessons › Network Attacks.
+- **SNMP Enumeration** — Lessons › Network Attacks.
+
+### Host-Based Attacks
+
+- **Access Token Impersonation** — Host Based Attacks › Windows › Windows Privilege Escalation.
+- **Alternate Data Streams** — Host Based Attacks › Windows › Windows File System Vulnerabilities.
+- **Bypassing UAC With UAC Me** — Host Based Attacks › Windows › Windows Privilege Escalation.
+- **Dumping Hashes With Mimikatz** — Host Based Attacks › Windows › Windows Credential Dumping. _Also in: Host & Network Penetration Testing › Metasploit Framework (MSF) › Exploitation › Windows Post Exploitation_.
+- **Dumping Linux Password Hashes** — Host Based Attacks › Linux › Linux Credential Dumping.
+- **Exploiting Bash CVE-2014-6271 Vulnerability (Shellshock)** — Host Based Attacks › Linux › Exploiting Linux Vulnerabilities.
+- **Exploiting FTP** — Host Based Attacks › Linux › Exploiting Linux Vulnerabilities.
+- **Exploiting Microsoft IIS WebDAV** — Host Based Attacks › Windows › Exploiting Windows Vulnerabilities.
+- **Exploiting Misconfigured Cron Jobs** — Host Based Attacks › Linux › Linux Privilege Escalation.
+- **Exploiting RDP** — Host Based Attacks › Windows › Exploiting Windows Vulnerabilities.
+- **Exploiting SAMBA** — Host Based Attacks › Linux › Exploiting Linux Vulnerabilities. _Also in: Host & Network Penetration Testing › Metasploit Framework (MSF) › Exploitation › Linux Exploitation_.
+- **Exploiting SMB With Ps Exec** — Host Based Attacks › Windows › Exploiting Windows Vulnerabilities.
+- **Exploiting SSH** — Host Based Attacks › Linux › Exploiting Linux Vulnerabilities.
+- **Exploiting SUID Binaries** — Host Based Attacks › Linux › Linux Privilege Escalation.
+- **Exploiting WebDAV With Metasploit** — Host Based Attacks › Windows › Exploiting Windows Vulnerabilities.
+- **Exploiting Windows CVE-2019-0708 RDP Vulnerability (Blue Keep)** — Host Based Attacks › Windows › Exploiting Windows Vulnerabilities.
+- **Exploiting Windows MS17-010 SMB Vulnerability (Eternal Blue)** — Host Based Attacks › Windows › Exploiting Windows Vulnerabilities.
+- **Exploiting WinRM** — Host Based Attacks › Windows › Exploiting Windows Vulnerabilities.
+- **Host Based Attacks** — Host Based Attacks › Introduction to Attacks › Host Based Attacks › Introduction To System.
+- **Linux Kernel Exploits** — Host Based Attacks › Linux › Linux Privilege Escalation.
+- **Searching For Passwords In Windows Configuration Files** — Host Based Attacks › Windows › Windows Credential Dumping.
+- **Windows Kernel Exploits** — Host Based Attacks › Windows › Windows Privilege Escalation.
+- **Windows Password Hashes** — Host Based Attacks › Windows › Windows Credential Dumping.
 
 ### Metasploit Framework (MSF)
-- Framework Overview
-  - Introduction to the Metasploit Framework
-  - Metasploit Architecture
-  - Penetration Testing Workflows with Metasploit
-- Installation & Console Usage
-  - Installing and Configuring Metasploit
-  - MSFconsole Fundamentals
-  - Workspace Management
-- Information Gathering with Metasploit
-  - Integrating Nmap Results
-  - Service Enumeration via Auxiliary Modules
-- Vulnerability Scanning with Metasploit Ecosystem
-  - Metasploit Scanner Modules
-  - Nessus Integration
-  - WMAP for Web Application Scanning
-- Payloads & Automation
-  - Generating Payloads with Msfvenom
-  - Encoding Payloads with Msfvenom
-  - Injecting Payloads into PE Files
-  - Automating Tasks with Resource Scripts
-- Exploitation Routines
-  - HTTP File Server Exploitation
-  - MS17-010 SMB Exploitation
-  - WinRM Exploitation
-  - Apache Tomcat Exploitation
-  - FTP, Samba, SSH & SMTP Exploitation Modules
-- Post-Exploitation with Metasploit
-  - Meterpreter Fundamentals
-  - Upgrading Shells to Meterpreter
-  - Windows Post-Exploitation Modules
-  - Privilege Escalation (UAC Bypass & Token Impersonation)
-  - Dumping Hashes with Mimikatz
-  - Pass-the-Hash with PsExec
-  - Establishing Persistence (Windows & Linux)
-  - Enabling RDP
-  - Keylogging
-  - Clearing Event Logs
-  - Pivoting Techniques
-- Graphical Front-Ends
-  - Port Scanning & Enumeration with Armitage
-  - Exploitation & Post-Exploitation via Armitage
+
+- **Automating Metasploit With Resource Scripts** — Client-Side Attacks › Automating.
+- **Clearing Windows Event Logs** — Exploitation › Windows Post Exploitation.
+- **Creating & Managing Workspaces** — Metasploit › Metasploit Fundamentals.
+- **Dumping Hashes With Hashdump** — Exploitation › Linux Post Exploitation.
+- **Enabling RDP** — Exploitation › Windows Post Exploitation.
+- **Encoding Payloads With Msfvenom** — Client-Side Attacks › Payloads.
+- **Establishing Persistence On Linux** — Exploitation › Linux Post Exploitation.
+- **Establishing Persistence On Windows** — Exploitation › Windows Post Exploitation.
+- **Exploitation & Post Exploitation With Armitage** — Armitage › Metasploit GUIs.
+- **Exploiting A Vulnerable Apache Tomcat Web Server** — Exploitation › Windows Exploitation.
+- **Exploiting A Vulnerable FTP Server** — Exploitation › Linux Exploitation.
+- **Exploiting A Vulnerable HTTP File Server** — Exploitation › Windows Exploitation.
+- **Exploiting A Vulnerable SMTP Server** — Exploitation › Linux Exploitation.
+- **Exploiting A Vulnerable SSH Server** — Exploitation › Linux Exploitation.
+- **Exploiting Windows MS17-010 SMB Vulnerability** — Exploitation › Windows Exploitation.
+- **Exploiting WinRM (Windows Remote Management Protocol)** — Exploitation › Windows Exploitation.
+- **Generating Payloads With Msfvenom** — Client-Side Attacks › Payloads.
+- **Injecting Payloads Into Windows Portable Executables** — Client-Side Attacks › Payloads.
+- **Installing & Configuring The Metasploit Framework** — Metasploit › Metasploit Fundamentals.
+- **Introduction to the Metasploit Framework** — Metasploit › Metasploit Framework Overview.
+- **Linux Post Exploitation Modules** — Exploitation › Linux Post Exploitation.
+- **Linux Privilege Escalation Exploiting A Vulnerable Program** — Exploitation › Linux Post Exploitation.
+- **Metasploit Framework Architecture** — Metasploit › Metasploit Framework Overview.
+- **Meterpreter Fundamentals** — Exploitation › Post Exploitation Fundamentals.
+- **MSFconsole Fundamentals** — Metasploit › Metasploit Fundamentals.
+- **Pass-the-Hash With PS Exec** — Exploitation › Windows Post Exploitation.
+- **Penetration Testing With The Metasploit Framework** — Metasploit › Metasploit Framework Overview.
+- **Pivoting** — Exploitation › Windows Post Exploitation. _Also in: Host & Network Penetration Testing › Post-Exploitation Operations › Pivoting Lesson › Pivoting Overview_.
+- **Port Scanning & Enumeration With Armitage** — Armitage › Metasploit GUIs.
+- **Upgrading Command Shells To Meterpreter Shells** — Exploitation › Post Exploitation Fundamentals.
+- **Windows Keylogging** — Exploitation › Windows Post Exploitation.
+- **Windows Post Exploitation Modules** — Exploitation › Windows Post Exploitation.
+- **Windows Privilege Escalation Bypassing UAC** — Exploitation › Windows Post Exploitation.
+- **Windows Privilege Escalation Token Impersonation With Incognito** — Exploitation › Windows Post Exploitation.
 
 ### Exploitation Tactics
-- Exploitation Mindset & Workflow
-- Reconnaissance & Vulnerability Scanning
-  - Banner Grabbing
-  - Nmap Script-Based Scanning
-  - Metasploit Vulnerability Checks
-- Exploit Research & Customization
-  - Searching Public Exploit Repositories
-  - Using SearchSploit
-  - Fixing and Cross-Compiling Exploits
-- Shell Handling
-  - Netcat Fundamentals
-  - Bind Shells
-  - Reverse Shells
-  - Reverse Shell Cheat Sheet
-- Additional Frameworks & Tooling
-  - Metasploit Framework (Reference)
-  - PowerShell Empire Overview
-- Windows Case Study
-  - Black Box Penetration Test Walkthrough
-  - Port Scanning & Enumeration for Windows Targets
-  - Targeting IIS FTP, OpenSSH, SMB & MySQL
-- Linux Case Study
-  - Black Box Penetration Test Walkthrough
-  - Port Scanning & Enumeration for Linux Targets
-  - Targeting vsFTPd, PHP & SAMBA
-- Obfuscation & Evasion
-  - AV Evasion with Shellter
-  - Obfuscating PowerShell Code
+
+- **AV Evasion With Shellter** — Obfuscation › AV Evasion & Obfuscation.
+- **Banner Grabbing** — Vulnerability Scanning Overview › Vulnerability Scanning.
+- **Bind Shells** — Shells › Bind & Reverse Shells.
+- **Cross-Compiling Exploits** — Exploits › Fixing Exploits.
+- **Fixing Exploits** — Exploits › Fixing Exploits.
+- **Introduction To Exploitation** — Lessons › Introduction To Exploitation.
+- **Linux Black Box Penetration Test** — Linux › Linux Exploitation.
+- **Netcat Fundamentals** — Shells › Bind & Reverse Shells.
+- **Obfuscating Power Shell Code** — Obfuscation › AV Evasion & Obfuscation.
+- **Port Scanning & Enumeration - Linux** — Linux › Linux Exploitation.
+- **Port Scanning & Enumeration - Windows** — Windows › Windows Exploitation.
+- **Power Shell-Empire** — Frameworks › Exploitation Frameworks.
+- **Reverse Shell Cheatsheet** — Shells › Bind & Reverse Shells.
+- **Reverse Shells** — Shells › Bind & Reverse Shells.
+- **Searching For Exploits With Search Sploit** — Exploits › Searching For Exploits.
+- **Searching For Publicly Available Exploits** — Exploits › Searching For Exploits.
+- **Targeting Microsoft IIS FTP** — Windows › Windows Exploitation.
+- **Targeting MySQL Database Server** — Windows › Windows Exploitation.
+- **Targeting OpenSSH** — Windows › Windows Exploitation.
+- **Targeting PHP** — Linux › Linux Exploitation.
+- **Targeting SAMBA** — Linux › Linux Exploitation.
+- **Targeting SMB** — Windows › Windows Exploitation.
+- **Targeting vsFT Pd** — Linux › Linux Exploitation.
+- **The Metasploit Framework (MSF)** — Frameworks › Exploitation Frameworks.
+- **Vulnerability Scanning With Metasploit** — Vulnerability Scanning Overview › Vulnerability Scanning.
+- **Vulnerability Scanning With Nmap Scripts** — Vulnerability Scanning Overview › Vulnerability Scanning.
+- **Windows Black Box Penetration Test** — Windows › Windows Exploitation.
 
 ### Post-Exploitation Operations
-- Post-Exploitation Methodology
-  - Introduction to Post-Exploitation
-  - Structured Workflow
-- Windows Local Enumeration
-  - System Information
-  - Users & Groups
-  - Network Information
-  - Processes & Services
-  - Automation Techniques
-- Linux Local Enumeration
-  - System Information
-  - Users & Groups
-  - Network Information
-  - Processes & Cron Jobs
-  - Automation Techniques
-- Cross-Platform File Transfer
-  - Hosting Files with Python
-  - Transferring to Windows Targets
-  - Transferring to Linux Targets
-- Shell Management
-  - Upgrading Non-Interactive Shells
-- Privilege Escalation Playbooks
-  - Identifying Windows Privilege Escalation Opportunities
-  - Windows Privilege Escalation Techniques
-  - Linux Privilege Escalation via Weak Permissions
-  - Linux Privilege Escalation via Sudo
-- Persistence Mechanisms
-  - Windows Persistence via Services & RDP
-  - Linux Persistence via SSH Keys & Cron Jobs
-- Credential Dumping & Cracking
-  - Windows NTLM Hash Dumping & Cracking
-  - Linux Password Hash Dumping & Cracking
-- Pivoting Techniques
-- Covering Tracks
-  - Clearing Artifacts on Windows
-  - Clearing Artifacts on Linux
+
+- **Automating Linux Local Enumeration** — Linux Enumeration › Linux Local Enumeration.
+- **Automating Windows Local Enumeration** — Windows Enumeration › Windows Local Enumeration.
+- **Clearing Your Tracks On Linux** — Clearing › Clearing Your Tracks.
+- **Clearing Your Tracks On Windows** — Clearing › Clearing Your Tracks.
+- **Dumping & Cracking Linux Password Hashes** — Dumping & Cracking › Dumping & Cracking Linux Hashes.
+- **Dumping & Cracking NTLM Hashes** — Dumping & Cracking › Dumping & Cracking Windows Hashes.
+- **Enumerating Network Information - Linux** — Linux Enumeration › Linux Local Enumeration.
+- **Enumerating Network Information - Windows** — Windows Enumeration › Windows Local Enumeration.
+- **Enumerating Processes & Cron Jobs** — Linux Enumeration › Linux Local Enumeration.
+- **Enumerating Processes & Services** — Windows Enumeration › Windows Local Enumeration.
+- **Enumerating System Information - Linux** — Linux Enumeration › Linux Local Enumeration.
+- **Enumerating System Information - Windows** — Windows Enumeration › Windows Local Enumeration.
+- **Enumerating Users & Groups - Linux** — Linux Enumeration › Linux Local Enumeration.
+- **Enumerating Users & Groups - Windows** — Windows Enumeration › Windows Local Enumeration.
+- **Identifying Windows Privilege Escalation Vulnerabilities** — Escalation › Windows Privilege Escalation.
+- **Introduction To Post-Exploitation** — Introduction › Post-Exploitation.
+- **Linux Privilege Escalation - SUDO Privileges** — Escalation › Linux Privilege Escalation.
+- **Linux Privilege Escalation - Weak Permissions** — Escalation › Linux Privilege Escalation.
+- **Persistence Via Cron Jobs** — Persistence › Linux Persistence.
+- **Persistence Via RDP** — Persistence › Windows Persistence.
+- **Persistence Via Services** — Persistence › Windows Persistence.
+- **Persistence Via SSH Keys** — Persistence › Linux Persistence.
+- **Post-Exploitation Methodology** — Introduction › Post-Exploitation.
+- **Setting Up A Web Server With Python** — Transferring Files › Transferring Files To Windows & Linux Targets.
+- **Transferring Files To Linux Targets** — Transferring Files › Transferring Files To Windows & Linux Targets.
+- **Transferring Files To Windows Targets** — Transferring Files › Transferring Files To Windows & Linux Targets.
+- **Upgrading Non-Interactive Shells** — Shells › Upgrading Shells.
+- **Windows Privilege Escalation** — Escalation › Windows Privilege Escalation.
 
 ### Social Engineering
-- Introduction to Social Engineering
-- Pretexting Techniques
-- Phishing Campaigns with GoPhish (Parts 1 & 2)
+
+- **Introduction to Social Engineering** — Lessons › Social Engineering.
+- **Phishing with Gophish - Part 1** — Lessons › Social Engineering.
+- **Phishing with Gophish - Part 2** — Lessons › Social Engineering.
+- **Pretexting** — Lessons › Social Engineering.
 
 ## Web Application Penetration Testing
 
-### Introduction to Web Applications
-- Introduction to Web Application Security
-- Web Application Security Testing Methodology
-- Common Web Application Threats & Risks
-- Web Application Architecture
-- Web Application Technologies (Parts 1 & 2)
+### Web & HTTP Foundations
 
-### HTTP Protocol
-- HTTP Protocol Fundamentals
-  - Introduction to HTTP
-  - HTTP Requests (Parts 1 & 2)
-  - HTTP Responses
-  - HTTP Basics Lab (Parts 1 & 2)
-  - HTTPS Overview
+- **Common Web Application Threats & Risks** — Web Applications › Introduction to Web App Security Testing.
+- **HTTP Basics Lab - Part 1** — HTTP Protocol › HTTP › HTTP Protocol Fundamentals.
+- **HTTP Basics Lab - Part 2** — HTTP Protocol › HTTP › HTTP Protocol Fundamentals.
+- **HTTP Requests - Part 1** — HTTP Protocol › HTTP › HTTP Protocol Fundamentals.
+- **HTTP Requests - Part 2** — HTTP Protocol › HTTP › HTTP Protocol Fundamentals.
+- **HTTP Responses** — HTTP Protocol › HTTP › HTTP Protocol Fundamentals.
+- **HTTPS** — HTTP Protocol › HTTP › HTTP Protocol Fundamentals.
+- **Introduction to HTTP** — HTTP Protocol › HTTP › HTTP Protocol Fundamentals.
+- **Introduction to Web Application Security** — Web Applications › Introduction to Web App Security Testing.
+- **Passive Crawling & Spidering with Burp Suite & OWASP ZAP** — HTTP Protocol › Website Crawling & Spidering.
+- **Web Application Architecture** — Web Applications › Web Application Architecture & Components.
+- **Web Application Security Testing** — Web Applications › Introduction to Web App Security Testing.
+- **Web Application Technologies - Part 1** — Web Applications › Web Application Architecture & Components.
+- **Web Application Technologies - Part 2** — Web Applications › Web Application Architecture & Components.
 
-### Web Discovery
-- Passive Crawling & Spidering with Burp Suite and OWASP ZAP
