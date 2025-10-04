@@ -8,6 +8,14 @@ This outline lists each unique topic once and notes every module where it appear
 - **Primary Lesson Path** shows the canonical learning path to reach that lesson within the eJPT notes hierarchy.
 - **Additional Contexts** highlights other modules that reinforce the same topic. Multiple contexts are separated by line breaks, and an em dash (—) indicates that no additional coverage exists outside the primary path.
 
+### Outline at a Glance
+
+| Module | Sections Covered | Topic Count |
+| --- | --- | --- |
+| Assessment Methodologies | Footprinting & Scanning; Enumeration; Vulnerability Assessment; Auditing Fundamentals | 48 |
+| Host & Network Penetration Testing | Network-Based Attacks; Host-Based Attacks; Metasploit Framework (MSF); Exploitation Tactics; Post-Exploitation Operations; Social Engineering | 120 |
+| Web Application Penetration Testing | Web & HTTP Foundations | 14 |
+
 ### Table of Contents
 
 - [Assessment Methodologies](#assessment-methodologies)
