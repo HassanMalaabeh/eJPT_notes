@@ -8,6 +8,23 @@ This outline lists each unique topic once and notes every module where it appear
 - **Primary Lesson Path** shows the canonical learning path to reach that lesson within the eJPT notes hierarchy.
 - **Additional Contexts** highlights other modules that reinforce the same topic. Multiple contexts are separated by line breaks, and an em dash (—) indicates that no additional coverage exists outside the primary path.
 
+### Table of Contents
+
+- [Assessment Methodologies](#assessment-methodologies)
+  - [Footprinting & Scanning](#footprinting--scanning)
+  - [Enumeration](#enumeration)
+  - [Vulnerability Assessment](#vulnerability-assessment)
+  - [Auditing Fundamentals](#auditing-fundamentals)
+- [Host & Network Penetration Testing](#host--network-penetration-testing)
+  - [Network-Based Attacks](#network-based-attacks)
+  - [Host-Based Attacks](#host-based-attacks)
+  - [Metasploit Framework (MSF)](#metasploit-framework-msf)
+  - [Exploitation Tactics](#exploitation-tactics)
+  - [Post-Exploitation Operations](#post-exploitation-operations)
+  - [Social Engineering](#social-engineering)
+- [Web Application Penetration Testing](#web-application-penetration-testing)
+  - [Web & HTTP Foundations](#web--http-foundations)
+
 ## Assessment Methodologies
 
 ### Footprinting & Scanning
@@ -77,6 +94,8 @@ This outline lists each unique topic once and notes every module where it appear
 | Phase 3 - Conduct Penetration Test | Lessons › From Auditing to Penetration Testing | — |
 | Security Auditing & Penetration Testing | Lessons › Introduction to Security Auditing › Security Auditing Process | — |
 | Types of Security Audits | Lessons › Introduction to Security Auditing › Security Auditing Process | — |
+
+[⬆️ Back to top](#protocols-and-services-covered-in-ejpt-notes-consolidated)
 
 ## Host & Network Penetration Testing
 
@@ -221,6 +240,8 @@ This outline lists each unique topic once and notes every module where it appear
 | Upgrading Non-Interactive Shells | Shells › Upgrading Shells | — |
 | Windows Privilege Escalation | Escalation › Windows Privilege Escalation | — |
 
+[⬆️ Back to top](#protocols-and-services-covered-in-ejpt-notes-consolidated)
+
 ### Social Engineering
 
 | Topic | Primary Lesson Path | Additional Contexts |
@@ -250,4 +271,6 @@ This outline lists each unique topic once and notes every module where it appear
 | Web Application Security Testing | Web Applications › Introduction to Web App Security Testing | — |
 | Web Application Technologies - Part 1 | Web Applications › Web Application Architecture & Components | — |
 | Web Application Technologies - Part 2 | Web Applications › Web Application Architecture & Components | — |
+
+[⬆️ Back to top](#protocols-and-services-covered-in-ejpt-notes-consolidated)
 
