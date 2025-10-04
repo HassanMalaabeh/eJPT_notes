@@ -2,6 +2,12 @@
 
 This outline lists each unique topic once and notes every module where it appears. Sections are grouped by their primary training module, with cross-references to any additional contexts that also cover the topic.
 
+### How to Use This Outline
+
+- **Topic** lists the specific protocol, service, or technique as it appears in the curriculum.
+- **Primary Lesson Path** shows the canonical learning path to reach that lesson within the eJPT notes hierarchy.
+- **Additional Contexts** highlights other modules that reinforce the same topic. Multiple contexts are separated by line breaks, and an em dash (—) indicates that no additional coverage exists outside the primary path.
+
 ## Assessment Methodologies
 
 ### Footprinting & Scanning
