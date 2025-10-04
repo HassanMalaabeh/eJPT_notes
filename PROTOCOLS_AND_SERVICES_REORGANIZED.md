@@ -251,6 +251,8 @@ This outline lists each unique topic once and notes every module where it appear
 | Phishing with Gophish - Part 2 | Lessons › Social Engineering | — |
 | Pretexting | Lessons › Social Engineering | — |
 
+[⬆️ Back to top](#protocols-and-services-covered-in-ejpt-notes-consolidated)
+
 ## Web Application Penetration Testing
 
 ### Web & HTTP Foundations
